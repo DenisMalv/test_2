@@ -1,5 +1,5 @@
 
-import { softSkills } from "../../utils/data"
+// import { softSkills } from "../../utils/data"
 
 import { languages } from "../../utils/data"
 
