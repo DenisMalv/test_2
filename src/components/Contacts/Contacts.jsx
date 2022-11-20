@@ -16,8 +16,8 @@ const Contacts = () =>{
             <div>
                 <div>
                     <h2>Contacts</h2>
-                    <a href="#" type='tel'>+380984733446</a>
-                    <a href="#" type='email'>denis.malniev@gmail.com</a>
+                    <a href="https://github.com/DenisMalv/" type='tel'>+380984733446</a>
+                    <a href="https://github.com/DenisMalv/" type='email'>denis.malniev@gmail.com</a>
                     <ul>
                         {socialLinks.map(({id,link,svgSprite,svgHash})=> <ContactLink id={id}link={link} svgSprite={svgSprite} svgHash={svgHash} key={id}/>)}
                     </ul>
